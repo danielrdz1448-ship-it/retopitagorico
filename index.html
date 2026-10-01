@@ -1,0 +1,6 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Misión Pitagórica</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="title">🔺 Misión Pitagórica</div><div class="hud"><span>❤️ <b id="lives">3</b></span><span>⭐ <b id="score">0</b></span><span>🚩 <b id="progress">0</b>%</span></div></header>
+<main><div class="hint">← → mover · ↑ / espacio saltar · llega a la bandera</div><canvas id="game" width="1200" height="600" aria-label="Juego de plataformas de Teorema de Pitágoras"></canvas></main>
+<div id="quiz" class="overlay"><section class="card"><div class="tag">🧠 Rescate matemático</div><h2>Teorema de Pitágoras</h2><p id="qtext"></p><div id="answers" class="answers"></div><p id="feedback" class="feedback"></p></section></div>
+<div id="finish" class="overlay"><section class="card"><div class="tag">🏁 Misión cumplida</div><h2>¡Llegaste a la bandera!</h2><p id="finalText"></p><button onclick="restartGame()">Jugar de nuevo</button></section></div>
+<script src="game.js"></script></body></html>
